@@ -1,6 +1,6 @@
 {
   "name": "@everystate/renderer",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "EveryState Renderer: Direct-binding reactive renderer. Zero build step.",
   "type": "module",
   "main": "index.js",
@@ -25,9 +25,10 @@
     "url": "https://github.com/ImsirovicAjdin/everystate-renderer"
   },
   "files": [
-    "index.js",
-    "renderer.js",
-    "index.d.ts",
-    "README.md"
+    "*.js",
+    "*.d.ts",
+    "*.md",
+    "*.html",
+    "tests/"
   ]
 }
