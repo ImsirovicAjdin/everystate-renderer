@@ -1,0 +1,33 @@
+{
+  "name": "@everystate/renderer",
+  "version": "1.0.0",
+  "description": "EveryState Renderer: Direct-binding reactive renderer. Zero build step.",
+  "type": "module",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "keywords": [
+    "everystate",
+    "renderer",
+    "reactive-html",
+    "subscribe-element",
+    "zero-build",
+    "dom-binding",
+    "state-management",
+    "path-based"
+  ],
+  "author": {
+    "name": "Ajdin Imsirovic",
+    "url": "https://www.linkedin.com/in/ajdin-imsirovic"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ImsirovicAjdin/everystate-renderer"
+  },
+  "files": [
+    "index.js",
+    "renderer.js",
+    "index.d.ts",
+    "README.md"
+  ]
+}
