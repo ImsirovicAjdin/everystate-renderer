@@ -1,10 +1,13 @@
 {
   "name": "@everystate/renderer",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "EveryState Renderer: Direct-binding reactive renderer. Zero build step.",
   "type": "module",
   "main": "index.js",
   "types": "index.d.ts",
+  "bin": {
+    "everystate-renderer-self-test": "cli.js"
+  },
   "keywords": [
     "everystate",
     "renderer",
@@ -24,11 +27,31 @@
     "type": "git",
     "url": "https://github.com/ImsirovicAjdin/everystate-renderer"
   },
+  "homepage": "https://github.com/ImsirovicAjdin/everystate-renderer",
+  "peerDependencies": {
+    "@everystate/core": ">=1.0.5"
+  },
+  "scripts": {
+    "test": "node self-test.js",
+    "self-test": "node self-test.js",
+    "test:integration": "node tests/renderer.test.js",
+    "test:i": "node tests/renderer.test.js"
+  },
+  "devDependencies": {
+    "@everystate/test": "^1.0.0"
+  },
   "files": [
     "*.js",
     "*.d.ts",
     "*.md",
     "*.html",
+    "cli.js",
     "tests/"
-  ]
+  ],
+  "exports": {
+    ".": {
+      "import": "./index.js",
+      "types": "./index.d.ts"
+    }
+  }
 }

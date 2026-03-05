@@ -94,7 +94,7 @@ assert('parsePush: empty string returns null', parsePush('') === null);
 
 // -- Results ---------------------------------------------------------
 
-console.log(`\n@uistate/renderer v1.0.0 — self-test`);
+console.log(`\n@everystate/renderer v1.0.2 self-test`);
 console.log(`✓ ${passed} assertions passed${failed ? `, ✗ ${failed} failed` : ''}\n`);
 
 if (failed > 0) process.exit(1);
