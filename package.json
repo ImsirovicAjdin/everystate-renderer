@@ -1,6 +1,6 @@
 {
   "name": "@everystate/renderer",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "EveryState Renderer: Direct-binding reactive renderer. Zero build step.",
   "type": "module",
   "main": "index.js",
